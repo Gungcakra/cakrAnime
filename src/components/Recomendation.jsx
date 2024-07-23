@@ -27,16 +27,7 @@ export default function Recomentdation(){
           }
           return synopsis.substring(0, maxLength) + '...';
         };
-      const getMaxSynopsisLength = () => {
-        const screenWidth = window.innerWidth;
-        if (screenWidth < 576) {
-          return 25; // Jumlah karakter saat layar < 576px
-        } else if (screenWidth < 768) {
-          return 100; // Jumlah karakter saat layar < 768px
-        } else {
-          return 200; // Jumlah karakter saat layar > 768px
-        }
-      };
+     
     return(
       
             <Carousel>
