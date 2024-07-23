@@ -1,4 +1,5 @@
 # cakrAnime
+[![Vercel](https://img.shields.io/badge/visit-vercel-blue)](https://gungcakra-animeapp.vercel.app)
 
 cakrAnime is a web application that allows users to explore and search for anime using the Jikan API. Users can view a list of anime, get detailed information about each anime, including episodes, characters, reviews, and search for anime by title.
 
