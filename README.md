@@ -37,17 +37,14 @@ To run the project locally, follow these steps:
    ```bash
    npm install
    
-2. **Open Folder :**
+4. **Run Project :**
 
    ```bash
-   cd cakrAnime
-2. **Open Folder :**
+   npm run dev
+5. **Open Browser :**
 
    ```bash
-   cd cakrAnime
-2. **Open Folder :**
+   http://localhost:5173
 
-   ```bash
-   cd cakrAnime
    
 
