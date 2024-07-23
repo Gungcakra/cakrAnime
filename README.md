@@ -27,22 +27,22 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/GungCakra/cakrAnime.git
 
-2. **Open Folder**
+2. **Open Folder :**
 
    ```bash
    cd cakrAnime
 
-3. **Install Depedencies**
+3. **Install Depedencies:**
 
   ```bash
    npm install
 
-4. **Run Project**
+4. **Run Project:**
 
   ```bash
    npm run dev
 
-5. **Open Browser Visit**
+5. **Open Browser Visit:**
 
   ```bash
    http://localhost:5173
