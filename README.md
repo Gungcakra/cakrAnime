@@ -36,15 +36,5 @@ To run the project locally, follow these steps:
 
   ```bash
    npm install
-
-4. **Run Project:**
-
-  ```bash
-   npm run dev
-
-5. **Open Browser Visit:**
-
-  ```bash
-   http://localhost:5173
    
 
