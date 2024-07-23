@@ -18,11 +18,7 @@ cakrAnime is a web application that allows users to explore and search for anime
 - **CSS:** Styling for the application.
 - **Bootstrap:** Frontend framework for responsive design.
 - **JavaScript:** Programming language for application logic.
-<<<<<<< HEAD
-- **Jikan API:** Unofficial Myanimelist API.
-=======
 - **Jikan API:** Public API for Anime List.
->>>>>>> 9f3bf0850248c5706a881ecc9b45452274069e1d
 
 ## Installation
 
