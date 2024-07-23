@@ -1,8 +1,28 @@
-# React + Vite
+# cakrAnime
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+cakrAnime is a web application that allows users to explore and search for anime using the Jikan API. Users can view a list of anime, get detailed information about each anime, including episodes, characters, reviews, and search for anime by title.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Anime List:** View a list of popular and trending anime.
+- **Anime Details:** Get detailed information about a specific anime, including episodes, characters, and reviews.
+- **Search Anime:** Search for anime by title.
+- **Responsive Design:** Optimized for desktop and mobile devices.
+
+## Technologies Used
+
+- **ReactJS:** JavaScript library for building user interfaces.
+- **Vite:** Frontend build tool for faster and leaner development.
+- **HTML:** Markup language for creating web pages.
+- **CSS:** Styling for the application.
+- **Bootstrap:** Frontend framework for responsive design.
+- **JavaScript:** Programming language for application logic.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/GungCakra/cakrAnime.git
