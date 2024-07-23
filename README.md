@@ -31,10 +31,23 @@ To run the project locally, follow these steps:
 
    ```bash
    cd cakrAnime
+   
+3. **Install Depedencies :**
 
-3. **Install Depedencies:**
-
-  ```bash
+   ```bash
    npm install
+   
+2. **Open Folder :**
+
+   ```bash
+   cd cakrAnime
+2. **Open Folder :**
+
+   ```bash
+   cd cakrAnime
+2. **Open Folder :**
+
+   ```bash
+   cd cakrAnime
    
 
