@@ -1,0 +1,9 @@
+.navigation{
+    margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+    .navigation {
+      margin-left: 0; /* Adjust card size based on screen width */
+    }
+  }

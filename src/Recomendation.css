@@ -1,0 +1,105 @@
+.anime-container{
+    background-color: black;
+    
+}
+
+.anime-title{
+    font-size: x-large;
+}
+
+.btn-trailer{
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 10%;
+    transition: all .5s;
+    padding: 10px;
+    width: max-content;
+    background-color: #4F8A8B;
+}
+.btn-trailer:hover{
+    background-color: #406c6d;
+}
+.btn-detail{
+    font-size: larger;
+    border: solid white;
+}
+.btn-detail:hover{
+    background-color: #406c6d;
+}
+  .bg-anime {
+    position: relative;
+  }
+  
+  .img-anime {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Menggunakan cover untuk memastikan gambar terisi penuh */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0; /* Overlay ke kanan pada layar kecil */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 0) 50%);
+  }
+  
+  @media (max-width: 992px) {
+    .container.carousel .row {
+      flex-wrap: nowrap; /* Menjaga dua col tetap berdampingan ketika layar mengecil */
+      overflow-x: auto; /* Membuat scrollbar horizontal jika content terlalu lebar */
+      -webkit-overflow-scrolling: touch; /* Menyediakan pengalaman scroll yang mulus di iOS */
+      scroll-snap-type: x mandatory; /* Memaksa snap ke setiap item dalam scroll */
+    }
+}
+/* CSS untuk layout kolom pada layar kecil (767px ke bawah) */
+@media (max-width: 767px) {
+    .container.carousel .row {
+      display: flex;
+      flex-wrap: wrap; /* Memastikan wrap untuk kolom di bawah 767px */
+    }
+  
+    .anime-info {
+      flex: 1 1 25%; /* Kolom kiri mengambil 50% lebar pada layar kecil */
+      max-width: 25%; /* Maksimum lebar untuk memastikan tetap kiri */
+    }
+    .anime-title{
+        font-size: xx-small;
+    }
+    .anime-synopsis{
+        font-size: xx-small;
+    }
+    .btn-trailer{
+        font-size: xx-small;
+    }
+    .btn-detail{
+        font-size: xx-small;
+    }
+  
+    .bg-anime {
+      flex: 1 1 75%; /* Kolom kanan mengambil 50% lebar pada layar kecil */
+      max-width: 75%; /* Maksimum lebar untuk memastikan tetap kanan */
+      position: relative; /* Memastikan posisi relatif */
+    }
+  
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgb(0, 0, 0);
+      background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 0) 50%);
+      z-index: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .btn-trailer{
+      font-size: xx-small;
+    }
+}
+  

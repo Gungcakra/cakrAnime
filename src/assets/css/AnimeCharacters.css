@@ -1,0 +1,25 @@
+#char-bg{
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+}
+
+#char-img{
+    width: 100px;
+    height: auto;
+    border-radius: 10%
+}
+#chr-card{
+    background-color: #222831;
+    border: 1px solid #FBD46D;
+    width: 10rem;
+    height: auto;
+}
+.horizontal-scroll{
+    width: max-content;
+    overflow-x: scroll;
+    scrollbar-color: transparent transparent;
+}
+.horizontal-scroll::-webkit-scrollbar{
+    display: none;
+}
